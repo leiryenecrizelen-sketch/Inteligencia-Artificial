@@ -185,7 +185,7 @@ const App: React.FC = () => {
           onClick={() => openBonusModal("https://wa.me/5548996397690?text=ol%C3%A1%20tenho%20interesse%20em%20participar%20da%20imers%C3%A3o%20e%20intelig%C3%AAncia%20artificial%20para%20neg%C3%B3cios")}
           className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg glow-blue transition-all uppercase tracking-widest text-sm"
         >
-          Garantir Minha Vaga (24h de IA)
+          QUERO GARANTIR MINHA VAGA
         </button>
       </div>
     </div>

@@ -76,7 +76,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrolled, onParticipate }) => {
           onClick={onParticipate}
           className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-bold transition-all hover:scale-105 active:scale-95 shadow-lg shadow-blue-900/20"
         >
-          Participar
+          QUERO GARANTIR MINHA VAGA
         </button>
       </div>
     </nav>

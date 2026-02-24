@@ -60,7 +60,7 @@ const Hero: React.FC<HeroProps> = ({ onGarantir }) => {
                 onClick={onGarantir}
                 className="w-full sm:w-auto px-12 py-5 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-black text-lg transition-all hover:shadow-[0_0_30px_rgba(37,99,235,0.4)] text-center uppercase tracking-wider hover:scale-105 active:scale-95"
               >
-                Garantir minha vaga
+                QUERO GARANTIR MINHA VAGA
               </button>
               <div className="flex flex-col items-start text-left bg-slate-900/40 backdrop-blur-md p-4 border border-slate-800/50 rounded-2xl shadow-xl">
                 <div className="flex items-center gap-2 mb-1">
