@@ -6,6 +6,7 @@ const tiers = [
     name: 'Lote 1',
     subtitle: 'Imersão Presencial',
     status: 'Vagas Limitadas',
+    price: 'R$ 2.760,00',
     description: 'Aproveite o primeiro lote com bônus exclusivos para sua formação.',
     features: [
       '3 dias imersão',
@@ -22,6 +23,7 @@ const tiers = [
     name: 'Lote 2',
     subtitle: 'Imersão Presencial',
     status: 'Em Breve',
+    price: 'Consulte',
     description: 'Garanta sua participação na imersão presencial.',
     features: [
       '3 dias imersão',
@@ -78,7 +80,8 @@ const Pricing: React.FC<PricingProps> = ({ onGarantir }) => {
                 <p className="text-slate-400 text-xs font-medium leading-relaxed">{tier.description}</p>
               </div>
               <div className="mb-8 border-b border-slate-800/50 pb-4">
-                <div className="text-[10px] text-blue-500 font-black uppercase tracking-widest">{tier.status}</div>
+                <div className="text-[10px] text-blue-500 font-black uppercase tracking-widest mb-1">{tier.status}</div>
+                <div className="text-3xl font-black text-white">{tier.price}</div>
               </div>
               <div className="flex-1 space-y-4 mb-10">
                 {tier.features.map((feature, idx) => (

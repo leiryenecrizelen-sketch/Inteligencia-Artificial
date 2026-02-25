@@ -12,14 +12,12 @@ import Testimonials from './components/Testimonials';
 import AIAssistant from './components/AIAssistant';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
-import BonusModal from './components/BonusModal';
 
 const App: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
-  const [bonusModal, setBonusModal] = useState({ isOpen: false, url: '' });
 
   const openBonusModal = (url: string) => {
-    setBonusModal({ isOpen: true, url });
+    window.open(url, '_blank');
   };
 
   useEffect(() => {
@@ -173,12 +171,6 @@ const App: React.FC = () => {
 
       <Footer />
       <AIAssistant />
-      
-      <BonusModal 
-        isOpen={bonusModal.isOpen} 
-        onClose={() => setBonusModal({ ...bonusModal, isOpen: false })} 
-        originalUrl={bonusModal.url} 
-      />
 
       <div className="md:hidden fixed bottom-6 left-6 right-6 z-40">
         <button 
